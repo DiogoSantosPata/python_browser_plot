@@ -1,0 +1,62 @@
+<html>
+
+<style>
+	body{ background-color: rgb(40,40,40); }
+</style>
+
+
+<head>
+	<style src="style.css"></style>
+	<script src="main.js"></script>
+	<script src="drives.js"></script>
+	<script src="plot_pcolor.js"></script>
+</head>
+
+<title>EASEL</title>
+
+
+<body onload="init()">
+
+	<div id="visualization"></div>
+
+	<h1 style="font-family:Courier New; color:#d3d3d3">EASEL </h1>
+
+
+
+	<h2 style="position:absolute; top:120px; left:50px;  font-family:Courier New; color:#d3d3d3" >Drives</h2>
+	<canvas id="Canvas_drives" width="475" height="200" style="position:absolute; top:170px; left:50px;  border:1px solid #d3d3d3";></canvas>		
+	
+
+	<h2 style="position:absolute; top:120px; left:600px;  font-family:Courier New; color:#d3d3d3">Discrepancy</h2>
+	<canvas id="Canvas_discrepancy"   width="200" height="200" style="position:absolute; top:170px; left:600px;  border:1px solid #d3d3d3";></canvas>
+
+
+	<h2 style="position:absolute; top:370px; left:50px;  font-family:Courier New; color:#d3d3d3">Prototypes</h2>
+	<canvas id="Canvas_prototypes"   width="200" height="200" style="position:absolute; top:420px; left:50px;  border:1px solid #d3d3d3";></canvas>
+
+
+	<h2 style="position:absolute; top:370px; left:325px;  font-family:Courier New; color:#d3d3d3">Weights</h2>
+	<canvas id="Canvas_weights"   width="200" height="200" style="position:absolute; top:420px; left:325px;  border:1px solid #d3d3d3";></canvas>
+
+	<h2 style="position:absolute; top:370px; left:600px;  font-family:Courier New; color:#d3d3d3">LTM</h2>
+	<canvas id="Canvas_ltm"   width="200" height="200" style="position:absolute; top:420px; left:600px;  border:1px solid #d3d3d3";></canvas>
+
+
+	<h2 style="position:absolute; top:630px; left:50px;  font-family:Courier New; color:#d3d3d3">text with value: </h2>
+	<h2 style="position:absolute; top:630px; left:300px;  font-family:Courier New; color:#d3d3d3" id='change_txt_val'><h2>
+
+
+
+
+<!-- 
+	<button onclick="reconnect()">Reconnect</button>
+	<button onclick="quit()">Pause</button> -->
+
+
+</body>
+
+
+
+
+
+</html>
